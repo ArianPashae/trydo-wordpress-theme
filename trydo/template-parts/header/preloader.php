@@ -1,0 +1,10 @@
+<!-- Trydo Preloader -->
+<div class="preloader">
+    <div class='loader'>
+        <div class='circle'></div>
+        <div class='circle'></div>
+        <div class='circle'></div>
+        <div class='circle'></div>
+        <div class='circle'></div>
+    </div>
+</div>

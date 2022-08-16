@@ -1,0 +1,368 @@
+/**
+ * Typography
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	overflow: hidden;
+	overflow-y: auto;
+	font-size: 10px;
+}
+
+body {
+	overflow: hidden;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $body-font;
+	color: var(--color-body);
+	font-weight: 400;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+address,
+p,
+pre,
+blockquote,
+menu,
+ol,
+ul,
+table,
+hr {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	word-break: break-word;
+	font-family: $heading-font;
+	line-height: 1.4074;
+	color: var(--color-heading);
+}
+
+
+h1,
+.h1 {
+	font-size: var(--h1);
+	line-height: 1.3;
+}
+
+h2,
+.h2 {
+	font-size: var(--h2);
+	line-height: 1.4074;
+}
+
+h3,
+.h3 {
+	font-size: var(--h3);
+	line-height: 1.4074;
+}
+
+h4,
+.h4 {
+	font-size: var(--h4);
+	line-height: 1.4074;
+}
+
+h5,
+.h5 {
+	font-size: var(--h5);
+	line-height: 1.4074;
+}
+
+h6,
+.h6 {
+	font-size: var(--h6);
+	line-height: 1.4074;
+}
+
+
+
+@media #{$md-layout}{
+	h1,
+	.h1 {
+		font-size: calc(var(--h1) - 10px);
+	}
+	
+	h2,
+	.h2 {
+		font-size: calc(var(--h2) - 10px);
+	}
+	
+	h3,
+	.h3 {
+		font-size: calc(var(--h3) - 5px);
+	}
+	
+	h4,
+	.h4 {
+		font-size: calc(var(--h4) - 5px);
+	}
+	
+	h5,
+	.h5 {
+		font-size: calc(var(--h5) - 2px);
+	}
+	
+}
+@media #{$sm-layout}{
+	h1,
+	.h1 {
+		font-size: calc(var(--h1) - 20px);
+	}
+	
+	h2,
+	.h2 {
+		font-size: calc(var(--h2) - 20px);
+	}
+	
+	h3,
+	.h3 {
+		font-size: calc(var(--h3) - 10px);
+	}
+	
+	h4,
+	.h4 {
+		font-size: calc(var(--h4) - 5px);
+	}
+	
+	h5,
+	.h5 {
+		font-size: calc(var(--h5) - 4px);
+	}
+	
+	h6,
+	.h6 {
+		font-size: calc(var(--h6) - 2px);
+	}
+}
+
+
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+	font-weight: 700;
+}
+
+h4,
+.h4,
+h5,
+.h5 {
+	font-weight: 600;
+}
+
+h6,
+.h6 {
+	font-weight: 600;
+}
+
+
+.rn-blog-details {
+	P {
+		&.has-large-font-size {
+			line-height: 1.5;
+			font-size: 36px;
+		}
+	}
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.9;
+	font-weight: 400;
+	color: var(--color-body);
+	margin: 0 0 40px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&.has-large-font-size {
+		line-height: 1.5;
+		font-size: 36px;
+	}
+
+	&.has-medium-font-size {
+		font-size: 20px;
+	}
+
+	&.has-small-font-size {
+		font-size: 13px;
+	}
+
+	&.has-very-light-gray-color {
+		color: #ffffff;
+	}
+
+	&.has-background {
+		padding: 20px 30px;
+	}
+}
+
+
+input,
+button,
+select,
+textarea {
+	background: transparent;
+	border: 1px solid $border-color;
+	transition: all 0.4s ease-out 0s;
+	color: var(--color-body);
+
+	&:focus,
+	&:active {
+		outline: none;
+		border-color: var(--color-primary);
+	}
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 20px;
+	width: 100%;
+}
+
+
+table a,
+table a:link,
+table a:visited {
+	text-decoration: none;
+}
+
+cite,
+.wp-block-pullquote cite,
+.wp-block-pullquote.is-style-solid-color blockquote cite,
+.wp-block-quote cite {
+	color: var(--color-heading);
+	margin-top: 10px;
+	display: inline-block;
+	text-transform: inherit;
+}
+
+var {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+
+/*---------------------------
+	List Style 
+---------------------------*/
+ul,
+ol {
+	padding-left: 18px;
+}
+
+ul {
+	list-style: disc;
+    margin-bottom: 40px;
+	padding-left: 20px;
+	&.liststyle {
+		&.bullet {
+			li {
+				font-size: 16px;
+				line-height: 28px;
+				color: var(--color-body);
+				position: relative;
+				padding-left: 30px;
+
+				@media #{$sm-layout} {
+					padding-left: 19px;
+				}
+
+				&::before {
+					position: absolute;
+					content: "";
+					width: 6px;
+					height: 6px;
+					border-radius: 100%;
+					background: var(--color-body);
+					left: 0;
+					top: 10px;
+				}
+
+				&+li {
+					margin-top: 8px;
+				}
+			}
+		}
+	}
+	li {
+		font-size: 16px;
+		line-height: 28px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		a {
+			text-decoration: none;
+			color: var(--color-heading);
+			@extend %transition;
+			&:hover {
+				color: var(--color-primary);
+			}
+		}
+	}
+	ul {
+		margin-bottom: 0;
+	}
+}
+
+ol {
+	margin-bottom: 40px;
+	li {
+		font-size: 16px;
+		line-height: 28px;
+		color: var(--color-body);
+		margin-top: 10px;
+		margin-bottom: 10px;
+		a {
+			color: var(--color-heading);
+			@extend %transition;
+			text-decoration: none;
+			&:hover {
+				color: var(--color-primary);
+			}
+		}
+	}
+	ul {
+		padding-left: 30px;
+	}
+}
+
+
+p.cite {
+	margin-top: 0;
+}

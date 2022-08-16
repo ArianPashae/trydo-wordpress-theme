@@ -1,0 +1,124 @@
+/* Tab Style  */
+
+ul{
+    &.nav {
+        &.tab-style--1 {
+            @extend %liststyle;
+            display: flex;
+            margin: 0 -20px;
+            flex-wrap: wrap;
+            border: 0 none;
+            @media #{$lg-layout} {
+                margin: 0 -10px;
+            }
+            li {
+                position: relative;
+                margin: 0 20px;
+                @media #{$lg-layout} {
+                    margin: 0 10px;
+                    font-size: 17px;
+                    margin-bottom: 10px;
+                }
+                @media #{$md-layout} {
+                    margin-bottom: 10px;
+                }
+                @media #{$sm-layout} {
+                    margin-bottom: 10px;
+                }
+                a {
+                    border: 0 none;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    padding: 0;
+                    background: transparent;
+                    position: relative;
+                    display: inline-block;
+                    padding-bottom: 4px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    outline: none;
+                    color: $body-color;
+                    @extend %transition;
+                    
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        width: 30px;
+                        background: rgba(0, 0, 0, 0.2);
+                        @extend %transition;
+                        height: 2px;
+                        bottom: 0;
+                    }
+                    &.active {
+                        background: transparent;
+                        color: var(--color-primary);
+                        &::before{
+                            width: 100%;
+                            background: currentColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*------------------------
+    Tab Content  
+-------------------------*/
+.single-tab-content {
+    padding-top: 20px;
+    @media #{$sm-layout} {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    p {
+        font-weight: 300;
+        color: #717173;
+        font-size: 18px;
+        line-height: 30px;
+        @media #{$sm-layout} {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
+
+.single-tab-content{
+    ul{
+        &.list-style--1{
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+            color: #7e7e7e;
+            font-size: 16px;
+            line-height: inherit;
+            font-weight: 300;
+            margin: 0;
+            margin-bottom: 15px;
+            a{
+                font-weight: 500;
+                display: block;
+                color: #717173;
+                @extend %transition;
+                span{
+                    font-weight: 300;
+                }
+            }
+            &:hover {
+                a {
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+}
+

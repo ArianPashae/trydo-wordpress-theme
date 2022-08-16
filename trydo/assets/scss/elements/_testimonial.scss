@@ -1,0 +1,253 @@
+/* ---------------------------
+Testimonial Styles 
+------------------------------*/
+
+
+
+
+/*-----------------------------
+    Testminial Tab Content  
+--------------------------------*/
+.rn-testimonial-content {
+    text-align: center;
+    .inner {
+        padding-bottom: 62px;
+        @media #{$sm-layout} {
+            padding-bottom: 20px;
+        }
+        @media #{$md-layout} {
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 36px;
+            line-height: 58px;
+            color: #18181b;
+            font-weight: 400;
+            padding: 0 9%;
+            margin-bottom: 0;
+            margin-top: -16px;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+
+            @media #{$lg-layout} {
+                font-size: 32px;
+                line-height: 53px;
+            } 
+            @media #{$md-layout} {
+                font-size: 28px;
+                line-height: 48px;
+                padding: 0;
+            } 
+            @media #{$sm-layout} {
+                font-size: 20px;
+                line-height: 35px;
+                padding: 0;
+                font-weight: 400;
+            } 
+
+            &::before{
+                position: absolute;
+                width: 197px;
+                height: 100%;
+                left: 25%;
+                top: -50px;
+                background-image: url(../images/client/image-1.png);
+                content: "";
+                opacity: 1;
+                background-repeat: no-repeat;
+                z-index: -1;
+                @media #{$sm-layout} {
+                    top: -15px;
+                    background-size: 100px;
+                    left: 50%;
+                    right: 0;
+                    width: 100%;
+                    margin-left: -48px;
+                } 
+            }
+            &::after{
+                position: absolute;
+                width: 197px;
+                height: 202px;
+                right: 25%;
+                bottom: -115px;
+                background-image: url(../images/client/image-2.png);
+                content: "";
+                opacity: 1;
+                background-repeat: no-repeat;
+                z-index: -1;
+                @media #{$sm-layout} {
+                    display: none;
+                } 
+            }
+        }
+    }
+    .author-info {
+        margin-bottom: 50px;
+        position: relative;
+        z-index: 2;
+        @media #{$sm-layout} {
+            margin-bottom: 30px;
+        }
+        @media #{$md-layout} {
+            margin-bottom: 30px;
+        }
+        h6 {
+            font-size: 18px;
+            line-height: 50px;
+            color: #8c8c8c;
+            font-weight: 300;
+            @media #{$sm-layout} {
+                line-height: 20px;
+                font-size: 14px;
+            }
+            span{
+                color: var(--color-primary);
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+.rn-testimonial-light {
+    .rn-testimonial-content {
+        .inner {
+            p {
+                color: #c6c9d8;
+            }
+        }
+        .author-info {
+            h6 {
+                color: #ffffff;
+                font-weight: 300;
+                span {
+                    color: #c6c9d8;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+.rn-paralax-testimonial{
+    .rn-testimonial-content{
+        .inner{
+            p{
+                color: #ffffff;
+                &::before,
+                &::after{
+                    opacity: 0.1;
+                }
+            }
+        }
+    }
+}
+
+
+/* ------------------------------
+Testimonial Thumbnail 
+-------------------------------- */
+.rn-testimonial-area {
+    padding-top: 180px;
+    ul {
+        &.testimonial-thumb-wrapper {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 510px;
+            margin: 0px auto;
+            margin-bottom: -30px;
+            outline: none;
+            border: 0 none;
+            position: relative;
+            @media #{$large-mobile} {
+                margin-bottom: -10px;
+            }
+            > li {
+                padding-left: 15px;
+                padding-right: 15px;
+                flex-basis: 20%;
+                margin-bottom: 30px;
+                outline: none;
+                cursor: pointer;
+                @media #{$sm-layout} {
+                    flex-basis: 20%;
+                    margin-bottom: 14px;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                }
+                @media #{$large-mobile} {
+                    flex-basis: 25%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    margin-bottom: 10px;
+                }
+                .thumb {
+                    position: relative;
+                    display: inline-block;
+                    width: 100%;
+                    img {
+                        transition: all 0.3s;
+                        border-radius: 6px;
+                        width: 100%;
+                    }
+                }
+                > a {
+                    position: relative;
+                    display: block;
+                    &::after {
+                        width: 13px;
+                        height: 13px;
+                        background: var(--color-primary);
+                        right: -8.5px;
+                        top: -8.5px;
+                        position: absolute;
+                        content: "";
+                        border-radius: 100%;
+                        transition: all 0.3s;
+                        opacity: 0;
+                        transform: scale(0);
+                    }
+                    &.active {
+                        &::after {
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                        .thumb {
+                            img {
+                                transform: scale(1.1);
+                                object-fit: contain;
+                                box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    &:hover {
+                        .thumb {
+                            img {
+                                transform: scale(1.1);
+                                object-fit: contain;
+                                box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+/*--------------------------
+    Service Details Styles 
+-----------------------------*/
+.service-details-inner {
+    .sercice-details-content {
+        .thumb {
+            .video-popup {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% , -50%);
+                border: 0 none;
+            }
+        }
+        .details {
+            p {
+                color: #717173;
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 0;
+                & + p {
+                    margin-top: 30px;
+                }
+            }
+            h4 {
+                &.title {
+                    font-size: 36px;
+                    line-height: 30px;
+                    font-weight: 500;
+                    margin-top: 40px;
+                    margin-bottom: 27px;
+                    @media #{$sm-layout} {
+                        font-size: 26px;
+                        line-height: 38px;
+                        margin-top: 26px;
+                        margin-bottom: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

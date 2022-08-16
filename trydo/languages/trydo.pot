@@ -1,0 +1,1301 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Trydo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-02 21:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: inc/options/theme/option-framework.php:505
+msgid ""
+"\n"
+"    Page Banner"
+msgstr ""
+
+#: inc/comment-form.php:61 inc/comment-form.php:130
+msgid " <i class=\"rbt feather-corner-down-right\"></i> Reply"
+msgstr ""
+
+#: inc/global-functions.php:24
+msgid " min read"
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "% Comments"
+msgstr ""
+
+#: inc/comment-form.php:41 inc/comment-form.php:107
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/underscore/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/global-functions.php:56
+msgid "--- Select ---"
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "1 Comment"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1074
+msgid "404 Page"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1083
+msgid "404!"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:10
+msgid "Add Social Icons"
+msgstr ""
+
+#: inc/widget-area-register.php:14
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1096
+msgid "Add your custom description."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1089
+msgid "Add your custom subtitle."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1082
+msgid "Add your Default title."
+msgstr ""
+
+#: inc/tgm-config.php:27
+msgid "Advanced Custom Fields Pro"
+msgstr ""
+
+#: inc/customizer/color.php:60
+msgid "Allows you to customize some example settings for trydo."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:578
+#: inc/options/theme/option-framework.php:840
+msgid "Archive"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:189
+#: template-parts/title/breadcrumb.php:193
+#: template-parts/title/breadcrumb.php:197
+#: template-parts/title/breadcrumb.php:204
+#: template-parts/title/breadcrumb.php:208
+#: template-parts/title/breadcrumb.php:213
+msgid "Archives"
+msgstr ""
+
+#: inc/options/post-format-options.php:6
+msgid "Audio Post Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:617
+#: inc/options/theme/option-framework.php:750
+msgid "Author"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:224
+msgid "Author: "
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1115
+msgid "Back To Homepage"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:513
+msgid "Banner"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:554
+msgid "Banner Background Image Overlay"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:524
+#: inc/options/theme/option-framework.php:525
+msgid "Banner Layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:529
+#: inc/options/theme/option-framework.php:530
+msgid "Banner Layout 2"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:571
+msgid "Blog"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:588
+msgid "Blogs"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:540
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/options/page-options.php:287
+msgid "Breadcrumbs Enable"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1102
+msgid "Button"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1113
+msgid "Button Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:367
+msgid "Button Url"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:360
+msgid "BUY NOW"
+msgstr ""
+
+#: inc/options/page-options.php:89
+msgid "By default works primary location menu."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:861
+msgid "Case Study"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:849
+msgid "Case Study Button (View Details)"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:672
+#: inc/options/theme/option-framework.php:805
+msgid "Categories"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:594
+msgid "Choose your favorite blog layout"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:10
+msgid "Client"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:895
+#: inc/options/theme/option-framework.php:907
+msgid "Client Name"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:906
+msgid "Client Name Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:661
+#: inc/options/theme/option-framework.php:794
+msgid "Comments"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "Comments off"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: post title
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/tgm-config.php:45
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:455
+msgid "CONTACT US"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:587
+msgid ""
+"Controls the Default title of the page which is displayed on the page title "
+"are on the blog page."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:230
+msgid ""
+"Controls the font settings of the site title. (Note: Used when Transparent "
+"Header is enabled.)"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:193
+msgid ""
+"Controls the top, right, bottom and left padding of the logo. (Note: Used "
+"when Transparent Header is enabled.)"
+msgstr ""
+
+#: inc/customizer/color.php:361
+msgid "Copyright Color"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:489
+msgid "Copyright Content"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:440
+msgid "CTA  Pre Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:447
+msgid "CTA  Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:454
+msgid "CTA Button Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:461
+msgid "CTA Button UTL"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:468
+msgid "CTA Shape Image"
+msgstr ""
+
+#: inc/options/post-format-options.php:104
+msgid "Custom Link"
+msgstr ""
+
+#: inc/options/page-options.php:353
+msgid "Custom Sub Title"
+msgstr ""
+
+#: inc/options/page-options.php:319
+msgid "Custom Title"
+msgstr ""
+
+#: functions.php:123
+msgid "Dark"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:138
+msgid "Default Logo"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:586
+msgid "Default Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1095
+msgid "Description"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:352
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/color.php:264
+msgid "Dropdown Background Color"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:31 inc/underscore/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/tgm-config.php:40
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: comments.php:91
+msgid "Email "
+msgstr ""
+
+#: inc/options/theme/option-framework.php:239
+msgid "Enable Back To Top"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:514
+msgid "Enable or disable the banner area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:541
+msgid "Enable or disable the breadcrumb area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:405
+msgid "Enable or disable the footer area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1103
+msgid "Enable or disable the go to home page button."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:314
+msgid "Enable or disable the header area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:250
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:240
+msgid ""
+"Enable the back to top button that appears in the bottom right corner of the "
+"screen."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:375
+msgid "Enable to activate the sticky header."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:383
+msgid "Enable to make the header area transparent."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:351
+msgid "Enabled"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:48
+msgid "Enter Social Icon Link"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:29
+msgid "Enter Social Icon Markup"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:272
+msgid ""
+"Enter social links to show the icons. In case you want to hide any field, "
+"just keep that field empty"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:211
+msgid ""
+"Enter your site title here. (Note: Used when Transparent Header is enabled.)"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:239
+msgid "Error 404"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:997
+msgid "Facebook"
+msgstr ""
+
+#: inc/options/page-options.php:379 inc/customizer/color.php:277
+#: inc/options/theme/option-framework.php:397
+#: inc/options/theme/option-framework.php:404
+msgid "Footer"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:415
+#: inc/options/theme/option-framework.php:416
+msgid "Footer Layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:420
+#: inc/options/theme/option-framework.php:421
+msgid "Footer Layout 2"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:425
+#: inc/options/theme/option-framework.php:426
+msgid "Footer Layout 3"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:168
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/widget-area-register.php:23
+msgid "Footer Widget Area 1 (Quick Link)"
+msgstr ""
+
+#: inc/widget-area-register.php:24
+msgid "Footer Widget Area 2 (Say Hello)"
+msgstr ""
+
+#: comments.php:89
+msgid "Full Name"
+msgstr ""
+
+#: inc/options/post-format-options.php:53
+msgid "Gallery Image"
+msgstr ""
+
+#: inc/options/post-format-options.php:49
+msgid "Gallery Post Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:113
+#: inc/options/theme/option-framework.php:119
+msgid "General"
+msgstr ""
+
+#: inc/customizer/color.php:66
+msgid "Global Colors"
+msgstr ""
+
+#: functions.php:128
+msgid "Gray"
+msgstr ""
+
+#: inc/options/page-options.php:9 inc/customizer/color.php:187
+#: inc/options/theme/option-framework.php:306
+#: inc/options/theme/option-framework.php:313
+msgid "Header"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:350
+msgid "Header Button"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:359
+msgid "Header button Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:324
+#: inc/options/theme/option-framework.php:325
+msgid "Header Layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:329
+#: inc/options/theme/option-framework.php:330
+msgid "Header Layout 2"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:334
+#: inc/options/theme/option-framework.php:335
+msgid "Header Layout 3"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:339
+#: inc/options/theme/option-framework.php:340
+msgid "Header Layout 4"
+msgstr ""
+
+#: inc/options/page-options.php:148 inc/options/theme/option-framework.php:374
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/options/page-options.php:180 inc/options/theme/option-framework.php:382
+msgid "Header Transparent"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:472
+#: inc/options/theme/option-framework.php:621
+#: inc/options/theme/option-framework.php:632
+#: inc/options/theme/option-framework.php:643
+#: inc/options/theme/option-framework.php:654
+#: inc/options/theme/option-framework.php:665
+#: inc/options/theme/option-framework.php:676
+#: inc/options/theme/option-framework.php:687
+#: inc/options/theme/option-framework.php:698
+#: inc/options/theme/option-framework.php:754
+#: inc/options/theme/option-framework.php:765
+#: inc/options/theme/option-framework.php:776
+#: inc/options/theme/option-framework.php:787
+#: inc/options/theme/option-framework.php:798
+#: inc/options/theme/option-framework.php:809
+#: inc/options/theme/option-framework.php:820
+#: inc/options/theme/option-framework.php:853
+#: inc/options/theme/option-framework.php:899
+#: inc/options/theme/option-framework.php:919
+#: inc/options/theme/option-framework.php:939
+#: inc/options/theme/option-framework.php:959
+#: inc/options/theme/option-framework.php:989
+#: inc/options/theme/option-framework.php:1001
+#: inc/options/theme/option-framework.php:1014
+#: inc/options/theme/option-framework.php:1027
+#: inc/options/theme/option-framework.php:1043
+msgid "Hide"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:23
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://rainbowit.net/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://rainbowit.net/themes/trydo"
+msgstr ""
+
+#: functions.php:161
+msgid "Huge"
+msgstr ""
+
+#: inc/demo-import-config.php:27
+msgid "Importing may take 5-10 minutes."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:156
+msgid "Large"
+msgstr ""
+
+#: template-parts/title/blog-title.php:30
+msgid "Latest Posts"
+msgstr ""
+
+#: comments.php:32
+msgid "Leave a comment"
+msgstr ""
+
+#. %s: post title
+#: inc/underscore/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: comments.php:103
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:597
+#: inc/options/theme/option-framework.php:599
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:448
+msgid "Let's get to work"
+msgstr ""
+
+#: functions.php:133
+msgid "Light"
+msgstr ""
+
+#: inc/customizer/color.php:340
+msgid "Link Color"
+msgstr ""
+
+#: inc/options/post-format-options.php:100
+msgid "Link Post Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1023
+msgid "Linkedin"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/underscore/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/options/portfolio-meta.php:48
+msgid "Live Link"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:955
+#: inc/options/theme/option-framework.php:967
+msgid "Live Preview"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:973
+msgid "Live Preview Button Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:966
+msgid "Live Preview Text"
+msgstr ""
+
+#: inc/comment-form.php:62 inc/comment-form.php:131
+msgid "Log in to Reply"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:181
+msgid "Logo Height"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:192
+msgid "Logo Padding"
+msgstr ""
+
+#: inc/options/page-options.php:116
+msgid "Menu Type"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Nunito+Sans Sans, translate this to 'off'. Do not translate into your own language.
+#: inc/register-custom-fonts.php:13
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer/color.php:245
+msgid "Navigation Background Color After Sticky"
+msgstr ""
+
+#: inc/customizer/color.php:206
+msgid "Navigation Link Color"
+msgstr ""
+
+#: inc/customizer/color.php:226
+msgid "Navigation Link Color After Sticky and Dropdown"
+msgstr ""
+
+#: inc/comment-nav.php:18
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:243
+#: inc/options/theme/option-framework.php:253
+msgid "No"
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "No Comments"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:607
+#: inc/options/theme/option-framework.php:609
+msgid "No Sidebar"
+msgstr ""
+
+#: functions.php:151
+msgid "Normal"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/comment-nav.php:13
+msgid "Older Comments"
+msgstr ""
+
+#: inc/tgm-config.php:50
+msgid "One Click Demo"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1058
+msgid "Our More Projects"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:229
+msgid "Page"
+msgstr ""
+
+#: inc/options/page-options.php:212 inc/options/page-options.php:228
+msgid "Page Banner Area"
+msgstr ""
+
+#: inc/options/page-options.php:455
+msgid "Page Extra Option"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1090
+msgid "Page not found"
+msgstr ""
+
+#: inc/options/page-options.php:5
+msgid "Page Options"
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:128
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search ..."
+msgstr ""
+
+#. If there are characters in your language that are not supported by Nunito+Sans Sans, translate this to 'off'. Do not translate into your own language.
+#: inc/register-custom-fonts.php:18
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:832
+msgid "Portfolio"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:860
+msgid "Portfolio Button Text"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:6
+msgid "Portfolio Options"
+msgstr ""
+
+#. %s: post author.
+#: inc/underscore/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: comments.php:99
+msgid "Post Comment"
+msgstr ""
+
+#. %s: post date.
+#: inc/underscore/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/underscore/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary"
+msgstr ""
+
+#: functions.php:113
+msgid "primary"
+msgstr ""
+
+#: inc/customizer/color.php:89
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/color.php:147
+msgid "Primary Gradient Color From"
+msgstr ""
+
+#: inc/customizer/color.php:170
+msgid "Primary Gradient Color To"
+msgstr ""
+
+#: inc/customizer/color.php:112
+msgid "Primary Light Color"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:29 inc/options/theme/option-framework.php:935
+#: inc/options/theme/option-framework.php:947
+msgid "Project Types"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:946
+msgid "Project Types Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:628
+#: inc/options/theme/option-framework.php:761
+msgid "Publish Date"
+msgstr ""
+
+#: inc/options/post-format-options.php:144
+msgid "Quote Author Name"
+msgstr ""
+
+#: inc/options/post-format-options.php:163
+msgid "Quote Author Name Designation"
+msgstr ""
+
+#: inc/options/post-format-options.php:140
+msgid "Quote Post Options"
+msgstr ""
+
+#. Author of the theme
+msgid "Rainbow-Themes"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:707
+msgid "Read More"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:694
+msgid "Read More Button"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:705
+msgid "Read More Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:650
+#: inc/options/theme/option-framework.php:783
+msgid "Reading Time"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:441
+msgid "READY TO DO THIS"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/tgm-config.php:35
+msgid "Redux Framework"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1039
+msgid "Related Portfolio"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1051
+msgid "Related Work"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:915
+#: inc/options/theme/option-framework.php:927
+msgid "Release Date"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:64
+msgid "Release date"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:926
+msgid "Release Date Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:149
+msgid ""
+"Right now the white logo is not used anywhere. Note: Header Upcoming ..."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:602
+#: inc/options/theme/option-framework.php:604
+msgid "Right Sidebar"
+msgstr ""
+
+#: template-parts/title/blog-title.php:23
+#: template-parts/title/breadcrumb.php:234
+msgid "Search results for: "
+msgstr ""
+
+#: functions.php:118
+msgid "Secondary"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1050
+msgid "Section Title Before Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1057
+msgid "Section Title Text"
+msgstr ""
+
+#: inc/global-functions.php:118
+msgid "Select a Menu"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:521
+msgid "Select banner Layout"
+msgstr ""
+
+#: inc/options/page-options.php:252
+msgid "Select Banner Template"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:593
+msgid "Select Blog Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:880
+msgid ""
+"Select Excerpt or Breadcrumbs. If you want to empty this please select none."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:412
+msgid "Select Footer Layout"
+msgstr ""
+
+#: inc/options/page-options.php:419
+msgid "Select Footer Template"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:321
+msgid "Select Header Layout"
+msgstr ""
+
+#: inc/options/page-options.php:49
+msgid "Select Header Template"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:128
+msgid "Select Logo Type"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:129
+msgid ""
+"Select logo type, if the image is chosen the existing options of  image "
+"below will work, or text option will work. (Note: Used when Transparent "
+"Header is enabled.)"
+msgstr ""
+
+#: inc/options/page-options.php:86
+msgid "Select Menu"
+msgstr ""
+
+#: inc/options/page-options.php:471
+msgid "Select Page Skin"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:879
+msgid "Select Title Bellow Content"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:182
+msgid "Set custom logo height. Default value: 66px"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1114
+msgid "Set the custom text of go to home page button."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:706
+msgid "Set the Default title of read more button."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:985
+msgid "Share options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:471
+#: inc/options/theme/option-framework.php:620
+#: inc/options/theme/option-framework.php:631
+#: inc/options/theme/option-framework.php:642
+#: inc/options/theme/option-framework.php:653
+#: inc/options/theme/option-framework.php:664
+#: inc/options/theme/option-framework.php:675
+#: inc/options/theme/option-framework.php:686
+#: inc/options/theme/option-framework.php:697
+#: inc/options/theme/option-framework.php:753
+#: inc/options/theme/option-framework.php:764
+#: inc/options/theme/option-framework.php:775
+#: inc/options/theme/option-framework.php:786
+#: inc/options/theme/option-framework.php:797
+#: inc/options/theme/option-framework.php:808
+#: inc/options/theme/option-framework.php:819
+#: inc/options/theme/option-framework.php:852
+#: inc/options/theme/option-framework.php:898
+#: inc/options/theme/option-framework.php:918
+#: inc/options/theme/option-framework.php:938
+#: inc/options/theme/option-framework.php:958
+#: inc/options/theme/option-framework.php:988
+#: inc/options/theme/option-framework.php:1000
+#: inc/options/theme/option-framework.php:1013
+#: inc/options/theme/option-framework.php:1026
+#: inc/options/theme/option-framework.php:1042
+msgid "Show"
+msgstr ""
+
+#: inc/options/page-options.php:395
+msgid "Show Footer"
+msgstr ""
+
+#: inc/options/page-options.php:25
+msgid "Show Header"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:618
+#: inc/options/theme/option-framework.php:751
+msgid "Show or hide the author of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:673
+#: inc/options/theme/option-framework.php:806
+msgid "Show or hide the categories of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:662
+#: inc/options/theme/option-framework.php:795
+msgid "Show or hide the comments of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:469
+msgid "Show or hide the CTA Shape Image of footer layout one."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:998
+msgid "Show or hide the facebook share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1024
+msgid "Show or hide the linkedin share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:850
+msgid ""
+"Show or hide the portfolio case study (View Details) button of portfolio "
+"archive and addons"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:896
+msgid "Show or hide the portfolio client name of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:956
+msgid "Show or hide the portfolio live preview of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:936
+msgid "Show or hide the portfolio project types of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:916
+msgid "Show or hide the portfolio release date of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:651
+#: inc/options/theme/option-framework.php:784
+msgid "Show or hide the publish content reading time."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:629
+#: inc/options/theme/option-framework.php:762
+msgid "Show or hide the publish date of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:695
+msgid "Show or hide the read more button of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1040
+msgid ""
+"Show or hide the related portfolio area of portfolio single post bellow "
+"section."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:986
+msgid "Show or hide the social share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:684
+#: inc/options/theme/option-framework.php:817
+msgid "Show or hide the tags of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1011
+msgid "Show or hide the twitter share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:640
+#: inc/options/theme/option-framework.php:773
+msgid "Show or hide the updated date of blog post."
+msgstr ""
+
+#: inc/widget-area-register.php:12 inc/helper/layout-trait.php:227
+msgid "Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:718
+#: inc/options/theme/option-framework.php:871
+msgid "Single"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:210
+msgid "Site Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:218
+msgid "Site Title Font Settings"
+msgstr ""
+
+#: functions.php:146
+msgid "Small"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:271
+msgid "Social Icons"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:262
+#: inc/options/theme/option-framework.php:264
+msgid "Social Networks"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1088
+msgid "Sub Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:158
+msgid "Symbol Logo"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/underscore/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:683
+#: inc/options/theme/option-framework.php:816
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/color.php:319
+msgid "Text Color"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1097
+msgid "The page you were looking for could not be found."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1081
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/color.php:298
+msgid "Title Color"
+msgstr ""
+
+#. Name of the theme
+msgid "Trydo"
+msgstr ""
+
+#: inc/customizer/color.php:57
+msgid "Trydo Colors Options"
+msgstr ""
+
+#: inc/tgm-config.php:20
+msgid "Trydo Core"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:27
+#: inc/options/theme/option-framework.php:28
+msgid "Trydo Theme Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1010
+msgid "Twitter"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:639
+#: inc/options/theme/option-framework.php:772
+msgid "Updated Date"
+msgstr ""
+
+#: inc/options/post-format-options.php:10
+msgid "Upload Audio"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:547
+msgid "Upload Banner Background Image"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:479
+msgid "Upload CTA Shape Image"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:548
+msgid "Upload the banner background image of your banner layout one & two."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:480
+msgid ""
+"Upload the cta shape image of your footer layout one. Note: Recommended size "
+"width 295px and height: 300px"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:169
+msgid ""
+"Upload the footer logo of your site. Note: Its work for footer layout 2 and 3"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:139
+msgid "Upload the main logo of your site. Note: Its work for header layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:159
+msgid ""
+"Upload the symbol logo of your site. Note: Its work for header layout 2,3 "
+"and 4"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:6
+msgid "User Social Media"
+msgstr ""
+
+#: inc/options/post-format-options.php:206
+msgid "Video Link"
+msgstr ""
+
+#: inc/options/post-format-options.php:202
+msgid "Video Post\tOptions"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:974
+msgid "Visit Live Site"
+msgstr ""
+
+#: comments.php:93
+msgid "Website"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Welcome to TryDo WordPress Creative Agency, Portfolio and Corporate Multi-"
+"Purpose Theme Built With Elementor Page Builder!"
+msgstr ""
+
+#: functions.php:138
+msgid "White"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:148
+msgid "White Logo"
+msgstr ""
+
+#: comments.php:101
+msgid "Write your comment here… "
+msgstr ""
+
+#: inc/options/theme/option-framework.php:242
+#: inc/options/theme/option-framework.php:252
+msgid "Yes"
+msgstr ""
+
+#: template-parts/content-single.php:86
+#: template-parts/post/content-audio.php:30
+msgid "Your browser does not support the audio tag."
+msgstr ""
+
+#: inc/comment-form.php:32 inc/comment-form.php:113
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:494
+msgid "© 2020. All rights reserved by Your Company."
+msgstr ""
