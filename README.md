@@ -31,10 +31,11 @@
   </a>
   </div>
   <h2>💜🇬🇧 English 🇬🇧💜</h2>
-<p>🌹Welcome to Trydo WordPress Theme. It’s built with Elementor page builder. It comes with 17+ home demo pages, other inner pages, awesome blog, 30+ custom widgets that fill-up your needs with Dark Mode Style. It’s fully responsive and looks well. It is a modern design and high-speed performance WordPress Theme. It has available Creative Agency, Creative Agency Landing, Personal Portfolio, Personal Portfolio Landing, Minimal Portfolio, Home Particles, Digital Agency, Business, Home Parallax, Startup, Studio Agency, Freelancer, Minimal Portfolio, Parallax, and other needed inner or details pages availability.
+<p>🌹Welcome to Trydo WordPress Theme.<br>It’s built with Elementor page builder.<br> It comes with 17+ home demo pages, other inner pages, awesome blog, 30+ custom widgets that fill-up your needs with Dark Mode Style.<br> It’s fully responsive and looks well.<br> It is a modern design and high-speed performance WordPress Theme.<br> It has available Creative Agency, Creative Agency Landing, Personal Portfolio, Personal Portfolio Landing, Minimal Portfolio, Home Particles, Digital Agency, Business, Home Parallax, Startup, Studio Agency, Freelancer, Minimal Portfolio, Parallax, and other needed inner or details pages availability.
+<br>
 
 Trydo is SEO Friendly, Clean, W3C Validate Markup, and Gutenberg Capabilities.
-
+<br>
 It’s so pleasurable theme for it Awesome Unique Look & Clean Markup. You can customize it easily without any coding knowledge.🌹</p>
   <br>
   <br>
